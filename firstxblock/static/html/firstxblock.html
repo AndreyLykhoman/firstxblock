@@ -1,0 +1,7 @@
+<div class="firstxblock_block">
+<p>{{text_course}}
+    {% if can_to_skip and not is_read %}
+    <b>: I read <span class='is_read'>( {{ is_read }} )</span> (click me to skip).</b>
+    {% endif %}
+</p>
+</div>
